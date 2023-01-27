@@ -1,0 +1,9 @@
+.blob {
+  position: absolute;
+}
+
+.blob:nth-child(2) {
+  /* filter: blur(50px);
+   */
+  filter: blur(20px);
+}
