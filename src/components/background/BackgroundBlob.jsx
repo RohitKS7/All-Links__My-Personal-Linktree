@@ -124,10 +124,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#4ca1af" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#36d1dc" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#c4e0e5" }}
+                        style={{ stopColor: "#5b86e5" }}
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -172,10 +172,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#4ca1af" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#36d1dc" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#c4e0e5" }}
+                        style={{ stopColor: "#5b86e5" }}
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -223,10 +223,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#3e5151" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#ee9ca7" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#decba4" }}
+                        style={{ stopColor: "#ffdde1" }}
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -271,10 +271,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#3e5151" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#ee9ca7" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#decba4" }}
+                        style={{ stopColor: "#ffdde1" }}
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -322,10 +322,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#FE00F2" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#fdfc47" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#FB0280" }}
+                        style={{ stopColor: "#24fe41" }}
                       ></stop>
                     </linearGradient>
                   </defs>
@@ -370,10 +370,10 @@ export default function BackgroundBlob() {
                       x2="0%"
                       y2="100%"
                     >
-                      <stop offset="0%" style={{ stopColor: "#FE00F2" }}></stop>
+                      <stop offset="0%" style={{ stopColor: "#fdfc47" }}></stop>
                       <stop
                         offset="100%"
-                        style={{ stopColor: "#FB0280" }}
+                        style={{ stopColor: "#24fe41" }}
                       ></stop>
                     </linearGradient>
                   </defs>

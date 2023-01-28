@@ -11,3 +11,49 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.hoverEffect::before {
+  content: "";
+  width: 0;
+  height: 46px;
+  border-radius: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.hoverEffect:hover::before {
+  width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+  .hoverEffect::before {
+    height: 50px;
+  }
+  .hoverEffect:hover::before {
+    width: 590px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hoverEffect::before {
+    height: 30px;
+    border-radius: 5px;
+  }
+  .hoverEffect:hover::before {
+    width: 755px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .hoverEffect::before {
+    height: 50px;
+    border-radius: 10px;
+  }
+  .hoverEffect:hover::before {
+    width: 815px;
+  }
+}

@@ -20,7 +20,7 @@ export default function App() {
           <div className="flex items-center flex-col">
             <Tilt perspective={500} gyroscope={true} className="transform-gpu ">
               <div
-                className={`${styles.flexCenter} flex-col w-fit p-8 rounded-[50px] mb-20 mt-20 lg:mt-8 lg:mb-8 2xl:mt-20 2xl:mb-20  dark:bg-white bg-opacity-10 bg-black dark:bg-opacity-10 shadow-normal dark:shadow-5xl backdrop-filter backdrop-blur-sm `}
+                className={`${styles.flexCenter} flex-col w-fit p-8 rounded-[50px] mb-16 mt-[3rem] lg:mt-8 lg:mb-8 2xl:mt-20 2xl:mb-20 ${styles.glassEffect}`}
               >
                 <div className="mb-4 2xl:mb-8 ">
                   <img
@@ -36,13 +36,12 @@ export default function App() {
                   <span className="text-2xl md:text-[32px] lg:text-[26px] 2xl:text-[32px] font-kanit font-bold">
                     <TypeWriterEffect
                       // multiTextLoop="true"
-                      startDelay={1000}
+                      startDelay={500}
                       cursorColor="red"
                       multiText={[
                         "Web2 Frontend-Developer",
                         "Fullstack Web3 Developer",
                         "Solidity Developer",
-                        "Content Creator for Fun",
                       ]}
                       multiTextDelay={1500}
                       typeSpeed={40}
@@ -54,8 +53,13 @@ export default function App() {
             <div className="flex flex-col ">
               {linksName.map((link, i) => (
                 <Tilt className="transform-gpu " key={i}>
-                  <div className=" mb-8 lg:mb-[1.2rem] 2xl:mb-8 py-2 lg:py-[0.3rem] 2xl:py-2 px-20 md:px-[13rem] lg:px-80 rounded-[10px] lg:rounded-[5px] 2xl:rounded-[10px] dark:bg-white bg-opacity-10 bg-black dark:bg-opacity-10 shadow-normal dark:shadow-5xl backdrop-filter backdrop-blur-sm ">
-                    <a href={link.link} className="uppercase ">
+                  <div
+                    className={`mb-8 lg:mb-[1.2rem] 2xl:mb-8 py-2 lg:py-[0.3rem] 2xl:py-2 px-20 md:px-[13rem] lg:px-80 rounded-[10px] lg:rounded-[5px] 2xl:rounded-[10px]
+                  ${styles.glassEffect} before:${
+                      link.name === link.name && link.bg
+                    } hoverEffect `}
+                  >
+                    <a className="uppercase ">
                       <div className="flex items-center gap-4">
                         <img
                           src={link.icon}
