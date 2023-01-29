@@ -7,7 +7,7 @@ const linksName = [
   {
     name: "Twitter",
     icon: twitter,
-    link: "",
+    link: "https://twitter.com/SumanRohitK7",
     bg: "from-[#ff5f6d] to-[#ffc371]",
     delay: "700",
     direction: "fade-up-right",
@@ -15,7 +15,7 @@ const linksName = [
   {
     name: "LinkedIn",
     icon: linkedin,
-    link: "",
+    link: "https://linkedin.com/in/rohit-kumar-suman",
     bg: "from-[#36d1dc] to-[#5b86e5]",
     delay: "800",
     direction: "fade-up-left",
@@ -23,7 +23,7 @@ const linksName = [
   {
     name: "Portfolio",
     icon: portfolio_colored_1,
-    link: "",
+    link: "https://my-portfolio-rohitks7.vercel.app",
     bg: "from-[#ee9ca7] to-[#ffdde1]",
     delay: "900",
     direction: "fade-up-right",
@@ -31,7 +31,7 @@ const linksName = [
   {
     name: "Github",
     icon: github,
-    link: "",
+    link: "https://github.com/RohitKS7",
     bg: "from-[#fdfc47] to-[#24fe41]",
     delay: "1000",
     direction: "fade-up-left",

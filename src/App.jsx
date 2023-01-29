@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import TypeWriterEffect from "react-typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 import { linksName, styles } from "./constants";
 import Switcher from "./components/Switcher";
@@ -41,30 +41,35 @@ export default function App() {
                   Hi, I'm Rohit a
                 </h1>
                 <span className="text-2xl md:text-[32px] lg:text-[26px] 2xl:text-[32px] font-kanit font-bold">
-                  <TypeWriterEffect
-                    multiTextLoop="true"
-                    startDelay={300}
+                  <Typewriter
+                    cursor
+                    cursorBlinking
                     cursorColor="red"
-                    multiText={[
+                    delaySpeed={700}
+                    deleteSpeed={25}
+                    typeSpeed={100}
+                    loop="0"
+                    words={[
                       "Web2 Frontend-Developer",
                       "Fullstack Web3 Developer",
                       "Solidity Developer",
                     ]}
-                    multiTextDelay={1000}
-                    typeSpeed={40}
                   />
                 </span>
               </div>
             </div>
             <div className="flex flex-col ">
               {linksName.map((link, i) => (
-                <div
+                <a
+                  href={link.link}
+                  target="_blank"
+                  rel="noreferrer"
                   key={i}
                   data-aos={link.direction}
                   data-aos-delay={link.delay}
                   className={`hoverEffect ${styles.linksStyles} ${styles.glassEffect} before:bg-gradient-to-r ${link.bg} hover:text-black `}
                 >
-                  <a href="" className="uppercase ">
+                  <div className="uppercase ">
                     <div className="flex items-center gap-4">
                       <img
                         src={link.icon}
@@ -73,8 +78,8 @@ export default function App() {
                       />
                       <div className={styles.linkText}>{link.name}</div>
                     </div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               ))}
             </div>
           </div>
