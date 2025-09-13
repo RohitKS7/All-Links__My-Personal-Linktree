@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { linksName, styles } from "./constants";
 import Switcher from "./components/Switcher";
 import BackgroundBlob from "./components/background/BackgroundBlob";
-import rohitpfp from "./assets/rohitpfp.png";
+import rohitprofile from "./assets/rohitprofile.png";
 import "./normal.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,8 +31,8 @@ export default function App() {
             >
               <div className="mb-4 2xl:mb-8 ">
                 <img
-                  src={rohitpfp}
-                  alt="rohit-pfp"
+                    src={rohitprofile}
+                  alt="rohit-profile"
                   className={styles.heroImage}
                 />
               </div>
@@ -50,9 +50,10 @@ export default function App() {
                     typeSpeed={100}
                     loop="0"
                     words={[
-                      "Web2 Frontend-Developer",
-                      "Fullstack Web3 Developer",
-                      "Solidity Developer",
+                      "Web3 Frontend-Engineer",
+                      "Founder",
+                      "Founding Engineer",
+
                     ]}
                   />
                 </span>
