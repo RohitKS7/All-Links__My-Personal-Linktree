@@ -50,10 +50,11 @@ export default function App() {
                     typeSpeed={100}
                     loop="0"
                     words={[
-                      "Web3 Frontend-Engineer",
+                      "Frontend-Engineer",
                       "Founder",
-                      "Founding Engineer",
-
+                      "Product Builder",
+                      "Thinker",
+                      "Doer"
                     ]}
                   />
                 </span>
